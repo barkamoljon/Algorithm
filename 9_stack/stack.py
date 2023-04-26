@@ -25,7 +25,7 @@ class Stack:
           return "Stack is empty"
       else: 
          return self.stack[-1]
-if __name__ = '__main__":
+if __name__ = "__main__":
    stack = Stack()
    stack.push(5)
    stack.push(6)
