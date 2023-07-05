@@ -1,0 +1,11 @@
+import hashlib
+
+message = "Hello, world!"
+
+hasher = hashlib.sha256()
+hasher.update(message.encode("utf-8"))
+
+digest = hasher.hexdigest()
+
+print(digest)
+￼Enter
